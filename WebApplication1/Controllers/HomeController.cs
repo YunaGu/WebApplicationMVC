@@ -17,8 +17,10 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Input()
+    public IActionResult Input(UserInputModel userInputModel)
     {
+        // Output the input
+        ViewData["UserInput"] = userInputModel.UserInput;
         return View();
     }
 
