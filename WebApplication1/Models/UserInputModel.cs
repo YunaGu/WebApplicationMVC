@@ -7,4 +7,10 @@ public class UserInputModel
         get;
         set;
     }
+
+    public DateTime InputTime
+    {
+        get;
+        set;
+    }
 }

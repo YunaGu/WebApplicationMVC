@@ -19,8 +19,12 @@ public class HomeController : Controller
     }
     public IActionResult Input(UserInputModel userInputModel)
     {
+        // Record the time when user inputs
+        userInputModel.InputTime = DateTime.Now;
         // Output the input
         ViewData["UserInput"] = userInputModel.UserInput;
+        // Output the time
+        ViewData["InputTime"] = userInputModel.InputTime.ToString("HH:mm:ss dd-MM-yyyy");
         return View();
     }
 
