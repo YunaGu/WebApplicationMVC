@@ -1,0 +1,38 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2061d1dd_002D1b4e_002D411d_002D8ec3_002Df43f57fb4b6b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Output_ViewMessageAndTime" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::54BF9977-AC74-4239-8F81-014819ED44CA::net6.0::xUnitTests.Controllers.InputControllerTests.Output_ViewMessageAndTime&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2e924a48_002D07a7_002D4c1c_002Db397_002Db34fe48ac7bc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="InputControllerTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::54BF9977-AC74-4239-8F81-014819ED44CA::net6.0::xUnitTests.Controllers.InputControllerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3e522d07_002Dc96a_002D4ef1_002D853c_002D7b170f128f19/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="InputControllerTests #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::54BF9977-AC74-4239-8F81-014819ED44CA::net6.0::xUnitTests.Controllers.InputControllerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6ea12c74_002D3fc8_002D450d_002Db4de_002D2e3081eac96a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="InputControllerTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::54BF9977-AC74-4239-8F81-014819ED44CA::net6.0::xUnitTests.Controllers.InputControllerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6fe9f72e_002D0273_002D4cd8_002D80a6_002D24b2c32bd3e3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="InputControllerTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::54BF9977-AC74-4239-8F81-014819ED44CA::net6.0::xUnitTests.Controllers.InputControllerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=729d25c4_002D623a_002D4736_002Da99b_002Df0fd2f537d77/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="InputControllerTests #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::54BF9977-AC74-4239-8F81-014819ED44CA::net6.0::xUnitTests.Controllers.InputControllerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c973d794_002Dbcde_002D4c79_002D84f4_002D467a60f99bdc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	</wpf:ResourceDictionary>

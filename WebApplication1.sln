@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{8FAF113C-E773-450E-81AF-183860C67F1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitTests", "xUnitTests\xUnitTests.csproj", "{54BF9977-AC74-4239-8F81-014819ED44CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTests", "NUnitTests\NUnitTests.csproj", "{466A6027-AAC0-4E24-B4FE-D8A329F22112}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NUnit", "NUnit", "{B2B4B81A-927C-4C47-B819-5DE908F44A83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xUnit", "xUnit", "{BCF9C1B5-A667-4682-8FCB-6476C160B456}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,17 @@ Global
 		{8FAF113C-E773-450E-81AF-183860C67F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FAF113C-E773-450E-81AF-183860C67F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FAF113C-E773-450E-81AF-183860C67F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BF9977-AC74-4239-8F81-014819ED44CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BF9977-AC74-4239-8F81-014819ED44CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BF9977-AC74-4239-8F81-014819ED44CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BF9977-AC74-4239-8F81-014819ED44CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466A6027-AAC0-4E24-B4FE-D8A329F22112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466A6027-AAC0-4E24-B4FE-D8A329F22112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466A6027-AAC0-4E24-B4FE-D8A329F22112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466A6027-AAC0-4E24-B4FE-D8A329F22112}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{466A6027-AAC0-4E24-B4FE-D8A329F22112} = {B2B4B81A-927C-4C47-B819-5DE908F44A83}
+		{54BF9977-AC74-4239-8F81-014819ED44CA} = {BCF9C1B5-A667-4682-8FCB-6476C160B456}
 	EndGlobalSection
 EndGlobal
