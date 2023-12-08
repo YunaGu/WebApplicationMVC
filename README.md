@@ -10,7 +10,7 @@ Example:
 ## Technologies
 
 - Frontend: Razor Pages, Bootstrap, jQuery
-- Backend: ASP.NET Core MVC (.NET 6)
+- Backend: ASP.NET Core MVC (.NET 6), xUnit
 - Database: SQL Server
 - Others: Docker, Azure Data Studio (Mac)
 
