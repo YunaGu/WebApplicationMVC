@@ -20,7 +20,7 @@ Example:
 
 ### Download source code
 
-You can open your IDE and select "Get froom VCS", Version control: git, copy and paste the URL below:
+You can open your IDE and select "Get from VCS", Version control: git, copy and paste the URL below:
 
 ```git
 https://github.com/YunaGu/WebApplicationMVC.git
@@ -42,5 +42,5 @@ If you are a macOS user, you can download Docker and Azure Data Studio to replac
 
 ### Build and run the project
 
-You can build and run the project using .NET CLI: `dotnet build` and `dotnet run`. Also, you can click the run button<img src="/Users/yunkoo/Desktop/Screenshot 2023-12-08 at 20.55.04.png" alt="Screenshot 2023-12-08 at 20.55.04" style="zoom:25%;" /> on your IDE.
+You can build and run the project using .NET CLI: `dotnet build` and `dotnet run`. Also, you can click the run button<img src="https://github.com/YunaGu/WebApplicationMVC/blob/master/Screenshot%202023-12-08%20at%2020.55.04.png" alt="Screenshot 2023-12-08 at 20.55.04" style="zoom:25%;" /> on your IDE.
 
