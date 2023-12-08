@@ -41,4 +41,38 @@ public class InputControllerTests
 
         }
     }
+    
+    //test output
+    [Fact]
+    public async Task Output_ViewMessageAndTime()
+    {
+        // Arrange
+        var dbContextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
+            .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+            .Options;
+    
+        using (var dbContext = new ApplicationDbContext(dbContextOptions))
+        {
+            dbContext.UserInput.Add(new UserInputModel
+            {
+                MsgId = 1, 
+                InputTime = DateTime.Now, 
+                UserInput = "xUnit Test Message"
+            });
+            dbContext.SaveChanges();
+        }
+    
+        using (var dbContext = new ApplicationDbContext(dbContextOptions))
+        {
+            var controller = new InputController(dbContext);
+    
+            // Act
+            var result = await controller.Output();
+    
+            // Assert
+            var viewResult = Assert.IsType<ViewResult>(result);
+            var model = Assert.IsAssignableFrom<IEnumerable<UserInputModel>>(viewResult.ViewData.Model);
+            Assert.Single(model); // Assuming there is only one UserInputModel in the database for this test
+        }
+    }
 }
