@@ -4,31 +4,14 @@
     ViewData["Title"] = "Output";
 }
 
-<div class="text-center">
-    <h1 class="display-4">See the output here</h1>
-    @* <p> There will be a button to download file.</p> *@
-    
-    <table class="table">
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>Msg</th>
-            <th>Time</th>
-        </tr>
-        </thead>
-        
-        <tbody>
-        @foreach (var userInput in Model)
-        {
-            <tr>
-                <td>@userInput.MsgId</td>
-                <td>@userInput.UserInput</td>
-                <td>@userInput.InputTime.ToString("hh:mm:ss dd-MM-yyyy")</td>
-            </tr>
-        }
-        </tbody>
-        
-    </table>
-    
-    
+<div class="text-center" >
+    <h1 class="display-4">History</h1>
+    @foreach (var userInput in Model)
+    {
+        <div class="card m-2">
+            <div class="card-body">
+                <p class="m-0">You sent "@userInput.UserInput" at @userInput.InputTime.ToString("hh:mm:ss dd-MM-yyyy")</p>
+            </div>
+        </div>
+    }
 </div>
