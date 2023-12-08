@@ -33,7 +33,9 @@ public class InputController : Controller
             InputTime = userInputModel.InputTime,
             UserInput = userInputModel.UserInput
         };
-        return View(userInput);
+        _db.UserInput.Add(userInput);
+        _db.SaveChanges();
+        return RedirectToAction("Input");
     }
 
 }
