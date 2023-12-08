@@ -4,7 +4,8 @@ The user can type anything on the input page, once click submit, it will direct 
 
 Example:
 
-![Screen Recording 2023-12-08 at 20.29.09](/Users/yunkoo/Downloads/Screen Recording 2023-12-08 at 20.29.09.gif)
+![/Users/yunkoo/Downloads/Screen Recording 2023-12-08 at 20.29.09.gif](https://github.com/YunaGu/WebApplicationMVC/blob/master/Screen%20Recording%202023-12-08%20at%2020.29.09.gif)
+
 
 ## Technologies
 
