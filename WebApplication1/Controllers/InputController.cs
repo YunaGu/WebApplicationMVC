@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
 using WebApplication1.Models;
 
@@ -10,6 +11,14 @@ public class InputController : Controller
     public InputController(ApplicationDbContext db)
     {
         _db = db;
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> Output()
+    {
+        // var userMsg = await _db.UserInput.ToListAsync();
+        // return View(userMsg);
+        return View();
     }
     
     [HttpGet]
