@@ -48,11 +48,15 @@
             $("#showLatest").click(function () {
                 $("#latestInput").show();
                 $("#allInputs").hide();
+                $("#showLatest").removeClass("btn-secondary").addClass("btn-primary");
+                $("#showAll").removeClass("btn-primary").addClass("btn-secondary");
             });
 
             $("#showAll").click(function () {
                 $("#latestInput").hide();
                 $("#allInputs").show();
+                $("#showLatest").removeClass("btn-primary").addClass("btn-secondary");
+                $("#showAll").removeClass("btn-secondary").addClass("btn-primary");
             });
         });
     </script>
