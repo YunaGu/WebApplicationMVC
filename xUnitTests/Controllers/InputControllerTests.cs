@@ -33,7 +33,7 @@ public class InputControllerTests
             
             //Assert
             Assert.IsType<RedirectToActionResult>(result);
-            Assert.Equal("Input", (result as RedirectToActionResult)?.ActionName);
+            Assert.Equal("Output", (result as RedirectToActionResult)?.ActionName);
 
             var savedUserInput = dbContext.UserInput.FirstOrDefault();
             Assert.NotNull(savedUserInput);
