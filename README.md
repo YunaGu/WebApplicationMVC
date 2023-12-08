@@ -40,6 +40,18 @@ In this project, I used Localhost SQL Server. So **please replace the server nam
 
 If you are a macOS user, you can download Docker and Azure Data Studio to replace SQL Server Management System (SSMS), and use Rider to edit as Visual Studio for Mac has been retired.
 
+> My settings:
+>
+> server name: localhost
+>
+> instance name: MSSQLSERVER
+>
+> port: 1433
+>
+> admin: SA
+>
+> password: Password1#
+
 ### Build and run the project
 
 You can build and run the project using .NET CLI: `dotnet build` and `dotnet run`. Also, you can click the run button<img src="https://github.com/YunaGu/WebApplicationMVC/blob/master/Screenshot%202023-12-08%20at%2020.55.04.png" alt="Screenshot 2023-12-08 at 20.55.04" style="zoom:25%;" /> on your IDE.
