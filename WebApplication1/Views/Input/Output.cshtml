@@ -1,0 +1,17 @@
+@model List<WebApplication1.Models.UserInputModel>
+
+@{
+    ViewData["Title"] = "Output";
+}
+
+<div class="text-center" >
+    <h1 class="display-4">History</h1>
+    @foreach (var userInput in Model)
+    {
+        <div class="card m-2">
+            <div class="card-body">
+                <p class="m-0">You sent "@userInput.UserInput" at @userInput.InputTime.ToString("hh:mm:ss dd-MM-yyyy")</p>
+            </div>
+        </div>
+    }
+</div>
