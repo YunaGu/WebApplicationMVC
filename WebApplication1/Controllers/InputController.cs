@@ -16,9 +16,9 @@ public class InputController : Controller
     [HttpGet]
     public async Task<IActionResult> Output()
     {
-        // var userMsg = await _db.UserInput.ToListAsync();
-        // return View(userMsg);
-        return View();
+        var userMsg = await _db.UserInput.ToListAsync();
+        return View(userMsg);
+        // return View();
     }
     
     [HttpGet]
