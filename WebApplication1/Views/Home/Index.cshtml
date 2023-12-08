@@ -2,7 +2,20 @@
     ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
+<div class="d-flex flex-column text-center">
     <h1 class="display-4">Welcome</h1>
     <p>This is the home page, please find the input and output in the navbar.</p>
+    
+    <h2>Brief Introduction of this web application</h2>
+    <p>This small application technology stack is based on:</p>
+    <div>
+        <ul class="d-inline-flex flex-column text-start">
+            <li>Frontend: Razor pages, Bootstrap</li>
+            <li>Backend: ASP.NET Core MVC (.NET 6)</li>
+            <li>Database: SQL Server</li>
+        </ul>
+    </div>
+    <p>
+        On this app, you can input anything on the input page (please find it in the navigation above), the app will generate a sentence for you and record the history.
+    </p>
 </div>
