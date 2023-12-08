@@ -38,7 +38,7 @@ public class InputController : Controller
         };
         _db.UserInput.Add(userInput);
         _db.SaveChanges();
-        return RedirectToAction("Input");
+        return RedirectToAction("Output");
     }
 
 }
