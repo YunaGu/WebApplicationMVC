@@ -6,12 +6,54 @@
 
 <div class="text-center" >
     <h1 class="display-4">History</h1>
-    @foreach (var userInput in Model)
-    {
-        <div class="card m-2">
-            <div class="card-body">
-                <p class="m-0">You sent "@userInput.UserInput" at @userInput.InputTime.ToString("hh:mm:ss dd-MM-yyyy")</p>
+    <div class="mb-3">
+        <button class="btn btn-primary" id="showLatest">Show Latest</button>
+        <button class="btn btn-secondary" id="showAll">Show All</button>
+    </div>
+    
+    @* only show the latest one  *@
+    <div id="latestInput">
+        @if (Model.Any())
+        {
+            var latestInput = Model.OrderByDescending(u => u.InputTime).First();
+            <div class="card m-2">
+                <div class="card-body">
+                    <p class="m-0">You just sent "@latestInput.UserInput" at @latestInput.InputTime.ToString("HH:mm:ss dd-MM-yyyy")</p>
+                </div>
             </div>
-        </div>
-    }
+        }
+        else
+        {
+            <p>No inputs available. Please input something on the input page.</p>
+        }
+    </div>
+    
+    @* show all history *@
+    <div id="allInputs" style="display: none;">
+        @foreach (var userInput in Model)
+        {
+            <div class="card m-2">
+                <div class="card-body">
+                    <p class="m-0">You sent "@userInput.UserInput" at @userInput.InputTime.ToString("HH:mm:ss dd-MM-yyyy")</p>
+                </div>
+            </div>
+        }
+    </div>
 </div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#showLatest").click(function () {
+                $("#latestInput").show();
+                $("#allInputs").hide();
+            });
+
+            $("#showAll").click(function () {
+                $("#latestInput").hide();
+                $("#allInputs").show();
+            });
+        });
+    </script>
+}
